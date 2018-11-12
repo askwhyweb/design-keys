@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="OrviSoft_Designkeys::parent" title="Designkeys" module="OrviSoft_Designkeys" sortOrder="100" resource="OrviSoft_Designkeys::parent"/>
+		<add id="OrviSoft_Designkeys::design" title="Designkeys Design" module="OrviSoft_Designkeys" sortOrder="20" parent="OrviSoft_Designkeys::parent" action="designkeys/design" resource="OrviSoft_Designkeys::design"/>
+
+    </menu>
+</config>
